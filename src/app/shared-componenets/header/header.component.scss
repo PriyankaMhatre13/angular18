@@ -1,0 +1,25 @@
+.header {
+    background: #039be5;
+    padding: 10px 5px;
+
+    .nav {
+        .tabs {
+            padding: 5px 10px;
+            text-decoration: none;
+            display: inline-block;
+            background-color: #eee;
+            border-radius: 4px;
+            margin-right: 5px;
+
+            &:hover {
+                color: #039be5;
+                background-color: #cfd8dc;
+            }
+
+            &.active {
+                color: #039be5;
+            }
+
+        }
+    }
+}
